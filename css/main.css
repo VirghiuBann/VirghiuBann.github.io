@@ -1,0 +1,251 @@
+/*//grals*/
+.container{
+	width: 90%;
+}
+.border__botton{
+	border-bottom: 1px solid #b0bec5;
+}
+.full__width{
+	width: 100%;
+}
+.margin__bottom__0{
+  margin-bottom: 0px !important;
+}
+footer{
+	background-color: #103043 !important;
+}
+.browser-default{
+    background-color: #dddddd !important;
+    border-color: darkgray !important;
+    border-radius: initial;
+    height: 2.5rem;
+}
+.btn{
+  text-transform: none !important;
+}
+/*//first nav*/
+.logo__mobile img{
+	padding-top: 8px;
+}
+.logo_descktop img{
+	padding-top: 8px;
+	padding-left: 20px;
+	max-width: 230px;
+}
+/*nav secon*/
+
+.menu__second__item{
+	max-height: 64px !important;
+	color: #1d1d1d;
+	font-weight: 5 00;
+	letter-spacing: 1px;
+}
+.dropdown__content__profile{
+  background-color: #FFFFFF;
+  margin: 0;
+  display: none;
+  min-width: 300px; /* Changed this to accomodate content width */
+  max-height: auto;
+  margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+  overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 5;
+  will-change: width, height;
+}
+ .dropdown__content_cat,
+ .dropdown__content_mark {
+  margin: 0;
+  left: 0px !important;
+  display: none;
+  width: 100%!important;
+  max-height: auto;
+ margin-left: -1px;
+  overflow: hidden;
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 4;
+  overflow: auto;
+  will-change: width, height;
+    -moz-column-width: 200px;
+  -webkit-column-width: 200px;
+  column-width: 200px;
+}
+.dropdown__content_cat li,
+ .dropdown__content_mark li{
+	line-height: 35px !important;
+	min-height: 34px !important;
+ }
+.dropdown__content_cat li a,
+ .dropdown__content_mark li a{
+	padding: 5px 16px!important;
+	min-height: 33px;
+	font-size: 15px;
+	color:#1d1d1d;
+ }
+ .dropdown__content_cart{
+  background-color: #FFFFFF;
+  margin: 0;
+  display: none;
+  min-width: 350px; /* Changed this to accomodate content width */
+  max-height: 500px;
+  margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+  overflow: auto; /* Changed this from overflow-y:auto; to overflow:hidden; */
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 5;
+  will-change: width, height;
+ }
+/*//menu secon mobile*/
+.item_mobile{
+	background-color: inherit !important;
+}
+/*//nav search*/
+#nav__search{
+	display: none;
+	position: absolute;
+	z-index: 3;
+	opacity: 0.75;
+}
+#nav__search .input-field input[type=search]:focus {
+  background-color: inherit;
+  border: 0;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 500;
+  opacity: 1;
+  border-bottom: 1px solid #fff;
+}
+.input__search{
+  font-size: 20px !important;
+  letter-spacing: 1px;
+}
+.mdi__close__search{
+	position: absolute;
+    top: 0;
+    right: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .3s color;
+}
+/*//slider*/
+.slider .indicators {
+    position: inherit;
+    margin-top: -50px;
+    z-index: 3;
+}
+.slider .slides li img {
+    background-size: 100% 500px;
+    background-position: center;
+}
+.slider{
+  height: 500px !important;
+}
+@media screen and (max-width: 569px){
+    .slider, .slides{
+      height: 200px !important;
+    }
+    .slider .slides li img {
+    background-size: 100% 200px;
+    }
+}
+
+
+ /*//all categories and marks*/
+ .list-all-categories,
+ .list-all-marks{
+  -moz-column-count:3;
+  -webkit-column-count:3;
+  column-count:3;
+  border-radius: 7px;
+  background-color:#fff;
+  padding:10px;
+}
+
+/*//home contend*/
+.product__item__img{
+    max-height: 250px!important;
+    height: 250px!important;
+    overflow: hidden!important;
+}
+.product__item__img img{
+  padding: 40px!important;
+}
+.product__item__title{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  line-height: 20px;
+}
+.product__item__content{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+.product__item__content .card-title{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px!important;
+}
+.product__item__price{
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding: 5px 10px 0 10px;
+    z-index: 1;
+    font-style: italic;
+    color: #424242;
+    font-weight: 500;
+}
+.product__item__action{
+    padding: 0!important;
+    border-top: 1px solid rgba(160, 160, 160, 0.2)!important;
+}
+.product__item__action .link__show,
+.product__item__action .link__add{
+      line-height: 50px;
+}
+.product__item__action .link__show{
+    padding-right: 0px;
+}
+.product__item__action .link__add{
+    padding-left: 0px;
+}
+.action__link__show,
+.action__link_add__card{
+  width: 100%;
+  line-height: 50px;
+  height: 50px;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+  color: #263238;
+  text-transform: none;
+}
+.product__item:hover{
+  cursor: pointer;
+}
+
+.aside__news .card{
+  box-shadow: unset;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+.aside__news .card img{
+  padding: 40px;
+  margin: 0 auto;
+}
+.aside__news .card .card-title{
+  font-size: 18px;
+  color:#607d8b !important;
+}
+/*//custom flexisel*/
+#flexiselNews img{
+  max-height: 200px;
+}

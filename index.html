@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="icon2.png" sizes="32x32">
+  <title>CC</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+ <link rel="stylesheet" href="css/flexisel.css">
+ <link rel="stylesheet" href="css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+    <main>
+            <div id="app">
+
+            <nav>
+
+                <!-- Dropdown profile -->
+                    <ul id="dropdown1" class="dropdown-content dropdown__content__profile">
+                        <li><a href="#"><i class="mdi-set mdi-account-card-details "> </i> Perfil</a> </li>
+                        <li><a href="#"><i class="mdi-set mdi-clipboard "> </i> Cotizaciones</a></li>
+                        <li><a href="#"><i class="mdi-set mdi-coin "> </i> Pedidos</a></li>
+                        <li> <a href="#"><i class="mdi-set mdi-cash"> </i> Pecio especiales</a></li>
+
+                        <li>
+                            <a href="#">
+                                <i class="mdi-set mdi-exit-to-app red-text "></i>
+                                Salir
+                            </a>
+                        </li>
+                    </ul>
+
+                <div class="nav-wrapper grey lighten-5 menu__one">
+                    <a href="#" class="brand-logo logo_descktop hide-on-med-and-down grey-text">
+                        <img src="icon2.png" alt="logo">
+                    </a>
+                     <a href="#" class="brand-logo logo__mobile hide-on-large-only grey-text">
+                            <img src="icon2.png" alt="logo">
+                    </a>
+                    <!-- activate side-bav in mobile view -->
+                    <a href="#" data-activates="mobile-cc" class="button-collapse">
+                        <i class="mdi mdi-menu blue-grey-text text-darken-3"></i>
+                    </a>
+                    <ul class="hide-on-large-only right">
+                         <li><a id="link__search__mobile">
+                            <i class="mdi mdi-magnify grey-text blue-grey-text text-darken-3"></i>
+                            </a>
+                        </li>
+                          <li>
+                            <a href="#">
+                              <i class="mdi mdi-cart  blue-text"></i>
+                            </a>
+                          </li>
+                    </ul>
+
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a id="link__search">
+                                <i class="mdi mdi-magnify grey-text blue-grey-text text-darken-3"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                          <a href="#">
+                            <i class="mdi mdi-cart  blue-text"></i>
+                          </a>
+                        </li>
+                        <!-- Dropdown Trigger -->
+                        <li><a class="dropdown-button blue-text dropdown__profile__user" href="#!" data-activates="dropdown1">
+                          Username
+                            <i class="mdi mdi-account  blue-text right"></i></a>
+                        </li>
+                    </ul>
+
+                    <!-- navbar for mobile -->
+                    <ul class="side-nav" id="mobile-cc">
+                        <li>
+
+                            <div class="user-view">
+                                <a href="#!user" class="center"> <i class="mdi mdi-account-circle mdi-48px blue-text"></i>
+                                  </a>
+                                <a href="#!name" class="center"><span class="black-text"> Username</span></a>
+                                <a href="#" class="center"><span class="black-text">Perfil</span></a>
+                                <a href="#" class="center"><span class="black-text">Cotizaciones</span></a>
+                                <a href="#" class="center"><span class="black-text">Pedidos</span></a>
+                                <a href="#" class="center"><span class="black-text"> Pecio especiales </span></a>
+
+                                <a href="#" class="red-text center">
+                                    Salir
+                                </a>
+                            </div>
+                        </li>
+                        <li><div class="divider"></div></li>
+                        <!-- categories -->
+                      <ul class="collapsible" data-collapsible="accordion">
+                          <li class="border__botton">
+                              <div class="collapsible-header blue-grey lighten-5 waves-effect border__botton">
+                                  <a href="#" class="menu__second__item item_mobile full__width">Categorias
+                                     <i class="mdi mdi-plus-box-outline right"></i>
+                                  </a>
+                              </div>
+                              <div class="collapsible-body">
+                                   <ul>
+                                        <li>
+                                            <a href="#" class="waves-effect waves-teal">Categoria 1</a>
+                                            <a href="#" class="waves-effect waves-teal">Categoria 1</a>
+                                            <a href="#" class="waves-effect waves-teal">Categoria 1</a>
+                                            <a href="#" class="waves-effect waves-teal">Categoria 1</a>
+                                            <a href="#" class="waves-effect waves-teal">Categoria 1</a>
+                                        </li>
+                                    </ul>
+                              </div>
+                          </li>
+                      </ul>
+                        <!-- marks -->
+                         <ul class="collapsible black-text" data-collapsible="accordion">
+                             <li class="border__botton">
+                                 <div class="collapsible-header blue-grey lighten-5 waves-effect">
+                                    <a href="#" class="menu__second__item item_mobile full__width">Marcas
+                                     <i class="mdi mdi-plus-box-outline right"></i>
+                                    </a>
+                                </div>
+                                 <div class="collapsible-body">
+                                     <ul>
+                                         <li>
+                                             <a href="#" title="" class="waves-effect waves-teal">marca 1</a>
+                                             <a href="#" title="" class="waves-effect waves-teal">marca 1</a>
+                                             <a href="#" title="" class="waves-effect waves-teal">marca 1</a>
+                                             <a href="#" title="" class="waves-effect waves-teal">marca 1</a>
+                                         </li>
+                                     </ul>
+                                </div>
+                             </li>
+                         </ul>
+
+                            <li class="blue-grey lighten-5 border__botton">
+                                <a class="menu__second__item waves-effect" href="#">Novedates</a>
+                            </li>
+                            <li class="blue-grey lighten-5 border__botton">
+                                <a class="menu__second__item waves-effect" href="#">Quienes Somos</a>
+                            </li>
+                            <li class="blue-grey lighten-5 border__botton">
+                                <a class="menu__second__item waves-effect" href="#contacts">Contactos</a>
+                            </li>
+                            <li class="blue-grey lighten-5 border__botton">
+                                <a class="menu__second__item waves-effect" href="#">Donde Estamos</a>
+                            </li>
+                    </ul>
+                    <!-- end mobile -->
+                </div>
+            </nav>
+
+            <!-- MENNU TWO -->
+            <nav class=" grey lighten-4 hide-on-med-and-down menu__second">
+                <!-- Dropdown Structure -->
+                <ul id="dropdown__categories" class="dropdown-content dropdown__content_cat">
+                    <li v-for="n in 40">
+                        <a href="#">Categoria {{ n }}</a>
+                    </li>
+                    <li>
+                        <a href="#" class="blue-text"><b>Todas las Categorias</b></a>
+                    </li>
+                </ul>
+
+                <ul id="dropdown__marks" class="dropdown-content dropdown__content_mark">
+                    <li v-for="m in 40">
+                        <a href="#">Marca {{ m }}</a>
+                    </li>
+                    <li>
+                        <a href="#" class="blue-text"><b>Todas las marcas</b></a>
+                    </li>
+                </ul>
+                <div class="nav-wrapper container ">
+                    <ul class="hide-on-med-and-down">
+                        <li>
+                            <a class="dropdown-button menu__second__item dropdown__cat" href="#!" data-activates="dropdown__categories">Categorias
+                                <i class="mdi-navigation-arrow-drop-down" ></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-button menu__second__item dropdown__mark" href="#!" data-activates="dropdown__marks">Marcas<i class="mdi-navigation-arrow-drop-down" ></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu__second__item">Novedades</a>
+                        </li>
+
+                        <li class="right">
+                            <a href="#" class="menu__second__item">Donde Estamos</a>
+                        </li>
+                        <li class="right">
+                            <a href="#" class="menu__second__item">Quienes Somos</a>
+                        </li>
+                        <li class="right">
+                            <a href="#contacts" class="menu__second__item">Contactos</a>
+                        </li>
+                        <!-- Dropdown Trigger -->
+                    </ul>
+                </div>
+            </nav>
+            <nav class="black nav__search" id="nav__search">
+                <div class="nav-wrapper container">
+                  	<form>
+                    	<div class="input-field">
+                      		<input id="search" type="search" class="input__search"  required placeholder="Buscar...">
+                      		<i class="mdi mdi-close white-text right mdi__close__search"></i>
+                    	</div>
+                  	</form>
+            	</div>
+            </nav>
+
+            <div class="slider">
+               <ul class="slides">
+                 <li>
+                   <img src="img/img4.jpg"> <!-- random image -->
+
+                 </li>
+                 <li>
+                   <img src="img/portal2.jpeg"> <!-- random image -->
+
+                 </li>
+                 <li>
+                   <img src="img/img4.jpg"> <!-- random image -->
+
+                 </li>
+
+               </ul>
+             </div>
+
+        <div class="container">
+
+            <div class="row">
+
+                 <div class="col s12 ml3 l3 hide-on-med-and-down aside__content">
+                     <ul class="collection with-header">
+                      <li class="collection-item">Alvin</li>
+                      <li class="collection-item">Alvin</li>
+                      <li class="collection-item">Alvin</li>
+                      <li class="collection-item">Alvin</li>
+                    </ul>
+
+                 </div>
+
+                 <div class="col s12 ml9 l9">
+                     <div class="row product__container">
+                         <div class="col s12 m4 l4" v-for="i in 12">
+                             <div class="card hoverable medium product__item">
+                                 <div class="card-image product__item__img">
+                                  <div class="product__item__price">
+                                     <span class="left">Bs 2000</span>
+                                     <span class="right"> Sus 500</span>
+                                 </div>
+                                  <a href="#">
+                                    <img src="img/img1.jpg"  class ='img-responsive'>
+                                  </a>
+                                 </div>
+                                 <div class="card-content product__item__content">
+                                     <h3 class="product__item__title">
+                                             Laptop portatil HP con video dedicado
+                                     </h3>
+                                     <span class="card-title grey-text text-darken-4">
+                                          Portatil de gama alta {{i}}
+                                     </span>
+                                 </div>
+                                 <div class="card-action product__item__action">
+                                    <div class="row margin__bottom__0">
+                                         <div class="col s6 m6 l6 actions link__show">
+                                             <a href="#" class="btn action__link__show">
+                                                 <i class="mdi-set mdi-eye"></i> Ver...
+                                             </a>
+                                         </div>
+                                         <div class="col s6 m6 l6 actions link__add">
+                                             <a  href="#"
+                                                 class="btn action__link_add__card">
+                                                 <i class="mdi-set mdi-cart-plus right"></i> Añadir
+                                             </a>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h5><blockquote>Novedades</blockquote></h5>
+              <ul id="flexiselNews" style="display: none">
+
+                   <li>
+                       <a class="carousel-item" href="#" title="nuevos">
+                        <img src="img/img4.jpg">
+                       </a>
+                   </li>
+                   <li>
+                       <a class="carousel-item" href="#" title="nuevos">
+                        <img src="img/img2.jpg">
+                       </a>
+                   </li>
+                   <li>
+                       <a class="carousel-item" href="#" title="nuevos">
+                        <img src="img/img4.jpg">
+                       </a>
+                   </li>
+                   <li>
+                       <a class="carousel-item" href="#" title="nuevos">
+                        <img src="img/img2.jpg">
+                       </a>
+                   </li>
+
+
+             </ul>
+            <div class="clearout"></div>
+         </div>
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/img4.jpg"></div>
+      </div>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2017 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">VB link</a>
+          </div>
+        </div>
+      </footer>
+
+
+    </div>
+    </main>
+
+   <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="js/flexisel.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            mounted(){
+                console.log('hola');
+            }
+        })
+    </script>
+</body>
+</html>
